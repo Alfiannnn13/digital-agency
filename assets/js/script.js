@@ -22,3 +22,7 @@ const toggleNavbar = function () {
 };
 
 addEventOnElement([navToggleBtn, overlay], "click", toggleNavbar);
+
+// paralax effct
+
+const parallaxElements = document.querySelectorAll("[data-parallax]");
