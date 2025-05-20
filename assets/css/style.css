@@ -17,18 +17,19 @@
   --bg-dark-purple: hsl(220, 60%, 10%); /* Gelap elegan */
   --bg-russian-violet: hsl(222, 50%, 15%); /* Biru keunguan tua */
   --bg-vivid-violet: hsl(204, 100%, 50%); /* Biru cerah */
-  --bg-sunglow: hsl(43, 100%, 61%); /* Tetap untuk aksen */
+  --bg-sunglow: hsl(30, 100%, 50%); /* Tetap untuk aksen */
   --bg-blue-jeans: hsl(182, 100%, 40%); /* Cyan untuk aksen modern */
   --bg-white-alpha-10: hsla(0, 0%, 100%, 0.1); /* Tetap */
 
   /* text color */
   --text-white: hsla(0, 0%, 100%, 1);
   --text-black: hsla(0, 0%, 0%, 1);
-  --text-sunglow: hsl(43, 100%, 61%); /* Tetap untuk aksen */
+  --text-sunglow: hsl(30, 100%, 50%); /* Tetap untuk aksen */
   --text-white-alpha-60: hsla(0, 0%, 100%, 0.6);
 
   /* border color */
   --border-blue-jeans: hsl(182, 100%, 40%); /* Match aksen cyan */
+  --border-sunglow: hsl(30, 100%, 50%); /* Match aksen cyan */
   --border-white-alpha-10: hsla(0, 0%, 100%, 0.1);
 
   /* typograph */
@@ -173,7 +174,7 @@ bpdy.nav-active {
   padding-inline: 50px;
   font-weight: var(--weight-semiBold);
   border-radius: var(--radius-pill);
-  color: var(--text-black);
+  color: var(--text-white);
   display: grid;
   place-content: center;
   max-width: max-content;
@@ -510,12 +511,12 @@ bpdy.nav-active {
   .btn-secondary {
     color: var(--text-white);
     height: 52px;
-    border: 2px solid var(--border-blue-jeans);
+    border: 2px solid var(--border-sunglow);
     padding-inline: 40px;
   }
 
   .btn-secondary:is(:hover, :focus-visible) {
-    background-color: var(--bg-blue-jeans);
+    background-color: var(--bg-sunglow);
   }
 
   /* header */
